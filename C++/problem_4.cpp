@@ -21,10 +21,11 @@ int main(){
         while(b<=999){
             if (isPalindrome(a*b) && a*b > largestPalindrome)
                 largestPalindrome = a * b;
+            
             b = b + 1;
         }
         a = a + 1;
     }
-    cout << largestPalindrome;
+    cout <<"the largest palindrome is"<< largestPalindrome;
     return 0;
 }
